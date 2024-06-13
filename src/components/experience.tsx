@@ -6,7 +6,7 @@ import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "~/lib/data";
 import { useSectionInView } from "~/lib/hooks";
-import { VerticalElement } from "./vertical-element";
+import { VerticalElement } from "~/components/vertical-element";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
